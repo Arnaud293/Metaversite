@@ -82,26 +82,38 @@
 <table>
     <thead>
         <tr>
-            <th colspan="2">Sections</th>
+            <th colspan="2">Components</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Home</td>
-            <td>This is the main page that renders a banner, as well as programs related to movies and series in rows</td>
+            <td>CustomTexts</td>
+            <td>This component works in conjunction with framer motion and contains the logic for TypingText and TitleText as two separate functional components.</td>
         </tr>
          <tr>
-            <td>Movies</td>
-            <td>Similar to the homepage but with queries only related to movies</td>
+            <td>ExploreCards</td>
+            <td>This component renders the various cards in the Explore section.</td>
         </tr>
          <tr>
-            <td>TvShows</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>Footer</td>
+            <td>This component renders the footer partly hardcoded with some animations. The object array containing the social media links is mapped from the consants folder.</td>
         </tr>
          <tr>
-            <td>Favorites</td>
-            <td>This page get favorites programs ID from localstorage and make a specific request to get each programs details from the API. Each favorites program can be deleted from favorites in this page.</td>
+            <td>InsightCard</td>
+            <td>This component renders the different cards in the Insight section</td>
         </tr>
+        <tr>
+            <td>NavBar</td>
+            <td>This component renders the navBar using framer motion to animate it. It is not functional, it contains a delay of appearance and a gradient in background.</td>
+        </tr>
+        <tr>
+            <td>NewFeatures</td>
+            <td>This component renders the different elements of the WhatsNews section.</td>
+        </tr>
+        <tr>
+            <td>StartSteps</td>
+            <td>This component renders the different steps mapped from the GetStarted section.</td>
+          </tr>
     </tbody>
 </table>
 
