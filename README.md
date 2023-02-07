@@ -18,47 +18,27 @@
 <h2>How it works ?</h2>
 <p>The site integrates a figma model with a powerful UI powered by NextJs, with dynamic animations created via framer motion. </p>
 
-<h3>About Components</h3>
-<table>
-    <thead>
-        <tr>
-            <th colspan="2">Components</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Nav</td>
-            <td>Contain links to other pages, searchbar to fetch programs by name. This component is also responsive.</td>
-        </tr>
-         <tr>
-            <td>Header</td>
-            <td>This component fetch and render a random banner from a list of trendings movies/TvShows</td>
-        </tr>
-         <tr>
-            <td>Row</td>
-            <td>Each row map a list of particular category of fetched programs</td>
-        </tr>
-         <tr>
-            <td>QuickView</td>
-            <td>Pop up component on click to view more information about a specific program with the capability to add this one to favorites</td>
-        </tr>
-         <tr>
-            <td>SearchResult</td>
-            <td>Custom component to fetch and render custom query from the searchbar</td>
-        </tr>
-         <tr>
-            <td>Footer</td>
-            <td>Static render displaying in the whole application</td>
-        </tr>
-    </tbody>
-</table>
-
 <h3>About Pages</h3>
-
 <table>
     <thead>
         <tr>
             <th colspan="2">Pages</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>index.jsx</td>
+            <td>This single page offers a rendering of all the sections. </td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>About Sections</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Sections</th>
         </tr>
     </thead>
     <tbody>
@@ -81,7 +61,7 @@
     </tbody>
 </table>
 
-<h3>About Sections</h3>
+<h3>About Components</h3>
 
 <table>
     <thead>
