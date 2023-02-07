@@ -48,15 +48,15 @@
         </tr>
          <tr>
             <td>Explore</td>
-            <td>This section offers the possibility to choose a metaverse world to explore. It performs its rendering using the following components: TypingText, ExploreCard, TitleText</td>
+            <td>This section offers the possibility to choose a metaverse world to explore(As you can see in the picture above). It performs its rendering using the following components: TypingText, ExploreCard, TitleText</td>
         </tr>
          <tr>
             <td>Feedback</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>This section dispenses with components. It offers an animated textual content about Samantha's metaverse experience.</td>
         </tr>
          <tr>
             <td>GetStarted</td>
-            <td>This page get favorites programs ID from localstorage and make a specific request to get each programs details from the API. Each favorites program can be deleted from favorites in this page.</td>
+            <td>This section presents the different steps to follow to get started. It performs its rendering using the following components: StartSteps, TypingText, TitleText(variant component of TypingText for titles) It uses a lot of animations from framer in order to make the rotation effect when the images (planets) appear on the scroll.</td>
         </tr>
         <tr>
             <td>Hero</td>
