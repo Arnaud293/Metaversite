@@ -127,40 +127,40 @@
   ❌ No issues known to date.
 
 <h3>List of possible improvements</h3>
-<ul>
-  <li>⚙️ Add a lazy loader to limit unnecessary queries. </li>
-  <li>⚙️ Modify components to make them more reusable (example: for the row). </li>
-  <li>⚙️ Use clearer naming for component endings with .jsx </li>
-  <li>⚙️ Create a specific folder for every constants.</li>
-  <li>⚙️ Create more dynamic rendering, some hard coded data could be mapped.</li>
-</ul>
+
+  ⚙️ Add lazy loading or change image format or both, for better UX when internet connection is poor.
+
 <h3>Specificity of folder structures</h3>
 
 <table>
     <tbody>
         <tr>
             <td>/Sections/index.js</td>
-            <td>Contain every requests excepted specific request for details mades with an id.</td>
+            <td>
+Groups and export by default each section (therefore importable in a single line)</td>
         </tr>
          <tr>
             <td>/Components/index.js</td>
-            <td>Contains all styling logic in scss, compiled to css in an index</td>
+            <td>
+Groups and export by default each component (therefore importable in a single line)</td>
         </tr>
          <tr>
             <td>/constants/index.js</td>
-            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+            <td>Contains all the constants whether text or arrays of objects, which allows cleaner, more maintainable and scalable code. It allows to map lists, texts, links, by giving them dynamic properties, it also allows to group all the constants in a single file on the condition of applying an explicit naming for maintainability.
+</td>
         </tr>
         <tr>
             <td>/utils/motion.js</td>
-            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+            <td>
+Contains all the animation business logic powered through framer.</td>
         </tr>
         <tr>
             <td>/public</td>
-            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+            <td>Contains public assets.</td>
         </tr>
         <tr>
             <td>/styles</td>
-            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+            <td>Contains the minimum in custom style + the index, the most of the style is directly implemented in the classNames of each tag thanks to TailwindCSS.               </td>
         </tr>
     </tbody>
 </table>
