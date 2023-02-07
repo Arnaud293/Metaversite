@@ -43,20 +43,36 @@
     </thead>
     <tbody>
         <tr>
-            <td>Home</td>
-            <td>This is the main page that renders a banner, as well as programs related to movies and series in rows</td>
+            <td>About</td>
+            <td>This section contains only text and some animations. The text writing animation is powered through a dedicated 'TypingText' component.</td>
         </tr>
          <tr>
-            <td>Movies</td>
-            <td>Similar to the homepage but with queries only related to movies</td>
+            <td>Explore</td>
+            <td>This section offers the possibility to choose a metaverse world to explore. It performs its rendering using the following components: TypingText, ExploreCard, TitleText</td>
         </tr>
          <tr>
-            <td>TvShows</td>
+            <td>Feedback</td>
             <td>Similar to the homepage but with queries only related to Tv Shows</td>
         </tr>
          <tr>
-            <td>Favorites</td>
+            <td>GetStarted</td>
             <td>This page get favorites programs ID from localstorage and make a specific request to get each programs details from the API. Each favorites program can be deleted from favorites in this page.</td>
+        </tr>
+        <tr>
+            <td>Hero</td>
+            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+        </tr>
+        <tr>
+            <td>Insights</td>
+            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+        </tr>
+        <tr>
+            <td>WhatsNews</td>
+            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+        </tr>
+        <tr>
+            <td>World</td>
+            <td>Similar to the homepage but with queries only related to Tv Shows</td>
         </tr>
     </tbody>
 </table>
