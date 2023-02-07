@@ -117,19 +117,14 @@
     </tbody>
 </table>
 
-<h3>Customization</h3>
-<ul>
-  <li>✅ Filtering data on fetch to remove programs without backdrop_path(image), in order to prevent 404 error and bad UX </li>
-  <li>✅ Create customs css rules(breakpoints) in the base SCSS files for variables(colors, background ...) and responsive </li>
-  <li>✅ Creation of a custom logo resembling the official logo, with a responsive variant </li>
-</ul>
+<h3>Best Pratices</h3>
+
+  ✅ The components are as pure as possible. <br/>
+  ✅ Components are reusable as much as possible.<br/>
+  ✅ The components, constants, utils, sections are gathered and exported from a dedicated index for each, in order to guarantee the cleanest and maintainable possible code.<br/>
 
 <h3>Known issues</h3>
-<ul>
-  <li>❌ In rare cases, the banner does not display, you have to refresh the page. </li>
-  <li>❌ For unknown reasons, potentially related to the database, a 404 error may appear for requests related to images, without disturbing the rendering. </li>
-  <li>❌ The search bar is very short in the responsive mode of the Nav. </li>
-</ul>
+  ❌ No issues known to date.
 
 <h3>List of possible improvements</h3>
 <ul>
