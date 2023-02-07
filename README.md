@@ -116,15 +116,27 @@
 <table>
     <tbody>
         <tr>
-            <td>/src/config</td>
+            <td>/Sections/index.js</td>
             <td>Contain every requests excepted specific request for details mades with an id.</td>
         </tr>
          <tr>
-            <td>/src/styles</td>
+            <td>/Components/index.js</td>
             <td>Contains all styling logic in scss, compiled to css in an index</td>
         </tr>
          <tr>
-            <td>/src/assets</td>
+            <td>/constants/index.js</td>
+            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+        </tr>
+        <tr>
+            <td>/utils/motion.js</td>
+            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+        </tr>
+        <tr>
+            <td>/public</td>
+            <td>Contains the minimum in assets, so everything that does not come from the API</td>
+        </tr>
+        <tr>
+            <td>/styles</td>
             <td>Contains the minimum in assets, so everything that does not come from the API</td>
         </tr>
     </tbody>
