@@ -48,7 +48,7 @@
         </tr>
          <tr>
             <td>Explore</td>
-            <td>This section offers the possibility to choose a metaverse world to explore(As you can see in the picture above). It performs its rendering using the following components: TypingText, ExploreCard, TitleText</td>
+            <td>This section offers the possibility to choose a metaverse world to explore(As you can see in the picture above). It performs its rendering using the following pure components: TypingText, ExploreCard, TitleText</td>
         </tr>
          <tr>
             <td>Feedback</td>
@@ -56,23 +56,23 @@
         </tr>
          <tr>
             <td>GetStarted</td>
-            <td>This section presents the different steps to follow to get started. It performs its rendering using the following components: StartSteps, TypingText, TitleText(variant component of TypingText for titles) It uses a lot of animations from framer in order to make the rotation effect when the images (planets) appear on the scroll.</td>
+            <td>This section presents the different steps to follow to get started. It performs its rendering using the following pure components: StartSteps, TypingText, TitleText (variant component of TypingText for titles). It uses a lot of animations from framer in order to make the rotation effect when the images (planets) appear on the scroll.</td>
         </tr>
         <tr>
             <td>Hero</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>This section offers the rendering of the header with the appearance animation as well as the custom text "Metaverse Madness".</td>
         </tr>
         <tr>
             <td>Insights</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>This section gives an overview of what awaits you in the metaverse. It performs its rendering using the following pure components: InsightCard, TypingText, TitleText.</td>
         </tr>
         <tr>
             <td>WhatsNews</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>Similar to GetStarted but it deals with the latest updates on the metaverse. It performs its rendering using the following pure components: NewFeatures, TypingText, TitleText.</td>
         </tr>
         <tr>
             <td>World</td>
-            <td>Similar to the homepage but with queries only related to Tv Shows</td>
+            <td>This section displays the world map to provide an overview of the possibilities for connecting and sharing with the world in the metaverse. It performs its rendering using the following pure components: TypingText, TitleText.</td>
         </tr>
     </tbody>
 </table>
